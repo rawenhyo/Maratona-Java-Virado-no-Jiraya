@@ -23,4 +23,22 @@ public class calculadora {
         double divisao = num1/num2;
         return divisao;
     }
+
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for (int aux:
+             numeros) {
+            soma+=aux;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){
+        int soma = 0;
+        for (int aux:
+                numeros) {
+            soma+=aux;
+        }
+        System.out.println(soma);
+    }
 }
