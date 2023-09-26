@@ -15,6 +15,5 @@ public class testeseminario02 {
         aluno[] alunosparaseminario = {aluno};
         seminario seminario = new seminario("joaozin", alunosparaseminario, local);
 
-        seminario.imprimir();
     }
 }
